@@ -4,7 +4,7 @@ var influx = require ('../connector.js');
 //TODO scompattare i dati e scriverli su un db, usare un oggetto per chiamare la funzione di scrittura, instanziare quindi ua classe per l'oggetto che scrive sul db
 var server = restify.createServer();
 server.use(restify.plugins.bodyParser());
-
+// ciao da andrea
 /*const Influx = require('influx');
 const influx = new Influx.InfluxDB({
     host: 'localhost',
